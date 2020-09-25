@@ -28,7 +28,6 @@ function number_format(number, decimals, dec_point, thousands_sep) {
 }
 
 function graphicx() {
-
     // Pie Chart Example
     var ctx3 = document.getElementById("myPieChart");
     var myPieChart = new Chart(ctx3, {

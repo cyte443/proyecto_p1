@@ -16,7 +16,9 @@
 
 <!-- Nav Item - Dashboard -->
 <li class="nav-item " onclick="graphicx()">
+    <!-- evento para cargar las graficas-->
     <a class="nav-link" [routerLink]="['home']">
+        <!-- ruteo -->
         <i class="fas fa-fw fa-tachometer-alt"></i>
         <span>Dashboard</span></a>
 </li>
@@ -46,7 +48,9 @@
         <div class="bg-white py-2 collapse-inner rounded">
             <h6 class="collapse-header">Custom Components:</h6>
             <a class="collapse-item" [routerLink]="['button']">Buttons</a>
+            <!-- ruteo de botones-->
             <a class="collapse-item" [routerLink]="['card']">Cards</a>
+            <!--ruteo de card -->
         </div>
     </div>
 </li>
@@ -63,9 +67,13 @@
         <div class="bg-white py-2 collapse-inner rounded">
             <h6 class="collapse-header">Custom Utilities:</h6>
             <a class="collapse-item" [routerLink]="['color']">Colors</a>
+            <!-- ruteo de colores -->
             <a class="collapse-item" [routerLink]="['border']">Borders</a>
+            <!-- rutero de bordes -->
             <a class="collapse-item" [routerLink]="['animation']">Animations</a>
+            <!-- ruteo de bordes -->
             <a class="collapse-item" [routerLink]="['other']">Other</a>
+            <!-- ruteo de otros -->
         </div>
     </div>
 </li>
